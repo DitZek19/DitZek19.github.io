@@ -1,0 +1,23 @@
+h1 {
+	color: green;
+	text-align: center;
+	font-size: 50px;
+	background-color: lightgreen;
+	border: 50px double red;
+	width: 1500px;
+	text-align: center;
+}
+img {
+	
+	width: 200px;
+	margin: 20px;
+	border: 20px double red;
+	background-color: lightgreen;
+}
+.right {
+	float: right;
+}
+body {
+	background-color: lightgreen;
+}
+
