@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Dancing+Script&family=IBM+Plex+Sans+Thai+Looped:wght@100&display=swap');
+
+h1	{
+	background-color: lightcoral;
+	font-size: 70px;
+	padding: 50px;
+	text-align: center;
+	font-family: "Alegreya"
+}
+
+h2	{
+	background-color: lightblue;
+	padding: 30px;
+	font-size: 50px;
+	text-align: right;
+	letter-spacing: 5px;
+	font-family: "Dancing Script"
+}
+
+p   {
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: justify;
+	padding: 30px;
+	font-family: "IBM Plex Sans Thai Looped"
+
+
+}
