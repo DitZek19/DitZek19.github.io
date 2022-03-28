@@ -1,0 +1,107 @@
+/*
+*
+* Title: Website über Deutschland;
+* Author: Ditmar Zekja;
+* Date: 28.03.2022;
+*
+*/
+
+
+
+/********************************** General Styling ***************************************/
+
+body {
+	margin:0;
+}
+
+/* Navigation */
+
+
+nav {
+	background: linear-gradient(0deg, rgba(255,252,0,1) 0%, rgba(221,39,39,1) 50%, rgba(0,0,0,1) 100%);
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+
+nav img {
+	height: 80px;
+	border-radius: 50%
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none; 
+}
+
+nav ul li a {
+	margin: 10px;
+	padding: 20px;
+	background-color: white;
+	text-decoration: none;
+	border-radius: 15px; 
+}
+.black {
+	color: black;
+}
+.red {
+	color: red;
+}
+.yellow {
+	color: gold;
+}
+
+.black:hover {
+	background-color: black;
+	color: white;
+}
+.red:hover {
+	background-color: red;
+	color: white;
+}
+.yellow:hover {
+	background-color: gold;
+	color: white;
+}
+
+/* HEADER */
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(bg.PNG);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+
+header h1 {
+	font-size: 50px;
+	border-radius: 20px;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+/* FOOTER */
+
+footer {
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: linear-gradient(225deg, rgba(254,0,0,1) 0%, rgba(0,255,209,1) 100%);
+
+
+}
+
+footer p {
+	font-size: 30px;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.5); 
+	border-radius: 15px; 
+}
