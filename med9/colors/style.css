@@ -1,0 +1,35 @@
+p{
+	padding: 50px;
+	margin: 20px;
+
+}
+.first {
+	background-color: rgb(135,35,70);
+}
+.second {
+	background-color: #0a4164;
+}
+.third {
+	background-color: rgb(204, 253, 255);
+}
+.fourth {
+	background-color: #2b0609;
+}
+.fifth {
+	background-color: rgb(255, 0, 162);
+}
+.sixth {
+	background-color: #a8bda4;
+}
+.seventh {
+	background-color: rgb(213, 214, 114);
+}
+.eighth {
+	background-color: #0b2b29;
+}
+.nineth {
+	background-color: rgb(215, 126, 242);
+}
+.tenth {
+	background-color: #bdff87;
+}

@@ -1,0 +1,16 @@
+* {
+	margin: 5px;
+	padding: 100px;
+	border: 1px solid black;
+}
+
+p {
+	background-color: red;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: -10;
+}
+header {
+	background-color: blue; 
+}
