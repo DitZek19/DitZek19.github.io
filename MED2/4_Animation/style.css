@@ -1,0 +1,87 @@
+.container {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ball {
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	margin: 10px;
+	animation: move 2s;
+    animation-iteration-count: infinite;
+}
+#blue {
+	background-color: blue;
+}
+#red {
+	background-color: red;
+	animation-delay: 0.25s;
+}
+#yellow {
+	background-color: yellow;
+	animation-delay: 0.5s;
+}
+#green {
+	background-color: green;
+	animation-delay: 0.75s;
+}
+
+.text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 5px;
+	font-size: 20px;
+	animation: text 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {transform: translateY(0);}
+    50%{transform: translateY(100%);}
+    100%{transform: translateY(0);}
+}
+@keyframes text {
+	30% {opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.text1 {
+	margin-top: 150px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	color: orange;
+}
+.progbar {
+	height: 10px;
+	width: 250px;
+	border: solid orange;
+	border-radius: 15px;
+	position: relative;
+	left: 50px;
+	top: 5px;
+	
+}
+
+.progload {
+	animation: progress 2s ease-in-out;
+	background-color: white;
+	width: 250px;
+	height: 10px;
+	border-radius: 15px;
+
+
+
+}
+
+@keyframes progress {
+    0% {width: 0%;}
+    25% {width: 50%;}
+    50% {width: 75%;}
+    75% {width: 85%;}
+    100% {width: 100%;}
+}
